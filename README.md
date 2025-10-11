@@ -51,24 +51,6 @@ A university project demonstrating secure web development practices through a mi
 - QR Code generator - Creates scannable codes for phone apps
 - Payment APIs from Stripe, PayPal, etc.
 
-## 📁 Project Structure
-
-```
-├── index.php              # Main product catalog
-├── cart.php               # Shopping cart view
-├── checkout.php           # Multi-gateway checkout
-├── add_to_cart.php        # Cart management
-├── reset.php              # Cart reset functionality
-├── css/
-│   └── style.css          # Custom styling
-├── images/                # Product images
-├── Payments/              # Payment gateway integrations
-│   ├── Stripe/
-│   ├── paypal/
-│   ├── midtrans/
-│   └── Googlepay/
-└── stripe-php-17.6.0/     # Stripe PHP SDK
-```
 
 ## 🔧 How to Run This Project
 
@@ -108,63 +90,13 @@ A university project demonstrating secure web development practices through a mi
 - **Safe Settings**: Configure everything to be secure by default
 - **Protecting Data**: Handle sensitive information carefully
 
-### Implementation Highlights
-- CSRF protection through form validation
-- XSS prevention via input sanitization
-- SQL injection prevention (prepared statements where applicable)
-- Secure session management
-- Rate limiting considerations
-- Secure payment processing workflows
-
 ## 🧪 Testing
 
-### Payment Testing
-- Use sandbox/test modes for all payment gateways
-- Test cards provided by each payment processor
-- Webhook testing for payment confirmations
-
-### Security Testing
-- 2FA flow verification
-- CAPTCHA bypass prevention
-- Session security validation
-- Input validation testing
-
-## ⚠️ Security Considerations
-
-**Important Notes:**
-- This is an academic/demonstration project
-- Payment gateway credentials are in sandbox mode
-- Implement proper SSL in production
-- Regular security audits recommended
-- Follow PCI DSS compliance for production use
-
-## 📝 Documentation
-
-- `Q1_Documentation.html` - Comprehensive project documentation
-- Code comments throughout the application
-- Security implementation details in respective modules
-
-## 🤝 Contributing
-
-This is an academic project. For educational purposes:
-1. Fork the repository
-2. Create feature branch
-3. Implement security best practices
-4. Test thoroughly
-5. Submit pull request with detailed documentation
-
-## 📄 License
-
-This project is for educational purposes. Please ensure compliance with all payment gateway terms of service and data protection regulations.
-
-## 🔗 Related Projects
-
-This project includes implementations from multiple security modules:
-- Multi-Factor Authentication (MFA/2FA)
-- CAPTCHA Systems (v2/v3)
-- Email-based OTP verification
-- Secure payment processing
+All payment gateways work in sandbox/test mode - no real money involved! Try different security features:
+- Register account to enable 2FA and email OTP
+- Add $100+ items to cart to test high-security checkout
+- Test all 4 payment methods
 
 ---
 
-**Note**: This platform demonstrates comprehensive security implementations for educational purposes. Ensure proper security auditing and compliance before any production deployment.
+**This is a university project demonstrating secure web development practices.**
