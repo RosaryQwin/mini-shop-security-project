@@ -1,0 +1,61 @@
+# PHP
+*.log
+*.tmp
+temp/
+tmp/
+
+# Sensitive configuration files
+config.php
+*.env
+.env
+
+# Payment gateway credentials
+Payments/*/config.php
+Payments/*/credentials.php
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Vendor directories
+vendor/
+node_modules/
+
+# Cache and session files
+cache/
+sessions/
+*.cache
+
+# Database files (if any)
+*.sql
+*.db
+*.sqlite
+
+# Documentation that might contain sensitive info
+documentation/
+docs/private/
+
+# Isaac Sim files (project-specific)
+*.urdf
+
+# Large files that shouldn't be in git
+*.zip
+*.tar.gz
+*.rarQ1_Documentation.html 
+*.urdf 
+Q1_Documentation.html 
+*.urdf 
+Q1_Documentation.html 
+*.urdf 
+ 
+# Additional security exclusions 
+Q1_Documentation.html 
+*.urdf 
+**/config.php 
