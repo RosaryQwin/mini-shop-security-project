@@ -158,7 +158,7 @@ secure-ecommerce-platform/
 ## Academic Context
 
 **Course:** Web Security & E-Commerce Development  
-**Institution:** [Your University]  
+**Institution:** RMIT
 **Purpose:** Demonstrating secure full-stack development practices in a realistic application context
 
 ---
